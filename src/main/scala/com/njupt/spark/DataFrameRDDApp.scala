@@ -9,6 +9,7 @@ import org.apache.spark.sql.{Row, SparkSession}
 object DataFrameRDDApp {
 
   def main(args: Array[String]) {
+//main
 
     val spark = SparkSession.builder().appName("DataFrameRDDApp").master("local[2]").getOrCreate()
 
